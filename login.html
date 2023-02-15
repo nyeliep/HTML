@@ -11,25 +11,43 @@
   body{
     background-image: url('images/lilac.png');
     text-align: center;
+    font-size: larger;
 
   
   }
   .form{
     margin:15% 25%;
   }
+  #title{
+    font-size: larger;
+    text-align: center;
+  }
+  #button{
+    font-size: larger;
+    text-align: center;
+    color: antiquewhite;
+    width: 100px;
+    height: 70px;
+  }
 </style>
 <body>
   <form class="form">
+    <h id="title">Log in</h>
+    <br/>
+    <br/>
     <label for="name">Username:</label>
-    <br>
+    <br/>
+  
       <input type="text" placeholder="Enter your Username" />
       <br/>
+      <br>
       <label for="password">password:</label>
     <br>
       <input type="password" placeholder="Enter your password" />
       <br/>
-      <p><a href="./submit.html"> Submit</a>
-      </p>
+      <br>
+      <button id="button"><p><a href="./submit.html"> Submit</a></p></button>
+    
 
   </form>
 </body>
