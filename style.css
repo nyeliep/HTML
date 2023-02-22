@@ -1,0 +1,25 @@
+body{
+  background-color: cornsilk;
+  text-align: left;
+  font-size: larger;
+  
+
+
+}
+.form{
+  margin-left: 70%;
+  margin-top: -12%;
+  
+  
+}
+#title{
+  font-size: larger;
+  text-align: center;
+}
+#button{
+  font-size: larger;
+  text-align: center;
+  color: antiquewhite;
+  width: 100px;
+  height: 70px;
+}
